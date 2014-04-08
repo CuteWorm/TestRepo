@@ -21,6 +21,7 @@ namespace PersonalBlogging.Web.Controllers
 		
 		public ActionResult Get()
         {
+			string tesss = "this is test for committing";
             return View();
         }
 	}
