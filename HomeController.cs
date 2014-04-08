@@ -10,18 +10,18 @@ namespace PersonalBlogging.Web.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
-        public ActionResult Index()
-        {
-            var pbService = new PersonalPostService();
-            pbService.AddBlog(new Post(){ Title = "test"});
-            return View();
-        }
-		
-		public ActionResult Get()
-        {
-            return View();
-        }
+				//
+				// GET: /Home/
+				public ActionResult Index()
+				{
+					var pbService = new PersonalPostService();
+					pbService.AddBlog(new Post(){ Title = "test"});
+					return View();
+				}
+				
+				public ActionResult Get()
+				{
+					return View();
+				}
 	}
 }
