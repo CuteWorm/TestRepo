@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+using PersonalBlogging.Domain.Entities;
+using PersonalBlogging.Service;
+
+namespace PersonalBlogging.Web.Controllers
+{
+    public class HomeController : Controller
+    {
+<<<<<<< HEAD
+								//
+								// GET: /Home/
+								public ActionResult Index()
+								{
+									var pbService = new PersonalPostService();
+									pbService.AddBlog(new Post(){ Title = "test"});
+									return View();
+								}
+								
+								public ActionResult Get()
+								{
+									return View();
+								}
+								
+								// my code here
+=======
+				//
+				// GET: /Home/
+				public ActionResult Index()
+				{
+					var pbService = new PersonalPostService();
+					pbService.AddBlog(new Post(){ Title = "test"});
+					return View();
+				}
+				
+				public ActionResult Get()
+				{
+					return View();
+				}
+				
+				// server updated
+>>>>>>> 301ef76a8a86cddb235ef3f7e44388a093a362ac
+	}
+}
