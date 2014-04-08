@@ -1,4 +1,0 @@
-repo: line 1
-function() {
-	alert(2222);
-}
